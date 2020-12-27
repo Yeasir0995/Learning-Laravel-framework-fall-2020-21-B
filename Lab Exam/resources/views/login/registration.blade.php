@@ -10,10 +10,7 @@
             <fieldset>
                 <legend>Register Employee</legend>
                 <table>
-                    <tr>
-                        <td>Name</td>
-                        <td><input type="text" name="name"></td>
-                    </tr>
+                    
                     <tr>
                         <td>Username</td>
                         <td><input type="text" name="username"></td>
@@ -21,6 +18,10 @@
                     <tr>
                         <td>Password</td>
                         <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name="email"></td>
                     </tr>
 
                     <tr>
