@@ -17,7 +17,7 @@ class registrationController extends Controller
     {
 
         $user = new User();
-        $user->name         = $req->name;
+      
         $user->username     = $req->username;
         $user->password     = $req->password;
         $user->type         = "employee";
